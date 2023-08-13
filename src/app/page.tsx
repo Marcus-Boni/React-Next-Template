@@ -1,26 +1,70 @@
 export default function Home() {
   return (
-    <div className="h-screen w-screen bg-white">
-      <div className="flex h-72 items-end justify-center transition-all">
-        <div className="container flex h-full w-full flex-col items-center justify-center rounded-lg bg-gray-800 p-5 md:flex-row md:p-0">
-          <div className="flex items-center justify-center">
-            <img
-              src="https://source.unsplash.com/random/?model"
-              alt=""
-              srcSet=""
-              className="mx-auto h-24 w-24 rounded-full object-cover md:h-full md:w-full md:rounded-lg"
-            />
-          </div>
-          <div>
-            <blockquote className="my-5 text-center">
-              Me fale e eu esqueço. Me ensine e eu lembro. Me envolva e eu
-              aprendo de verdade
-            </blockquote>
-            <h2 className="text-sky-400">Benjamin Franklin</h2>
-            <p className="text-gray-400">Político, EUA</p>
-          </div>
-        </div>
-      </div>
+    <div className="container mx-auto">
+      <table className="mx-2 w-full">
+        <thead>
+          <tr className="border-b border-gray-300 text-left text-sm">
+            <th className="py-2">Nome</th>
+            <th className="hidden md:table-cell">Título</th>
+            <th className="hidden md:table-cell">Email</th>
+            <th>Função</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-gray-300 text-left text-sm">
+            <td className="py-2">
+              <p className="font-bold text-black">Maria da Silva</p>
+              <p className="block md:hidden">Cafezeira</p>
+              <p className="block md:hidden">mariadocafe@hotmail.com</p>
+            </td>
+            <td className="hidden text-gray-400 md:table-cell">Cafezeira</td>
+            <td className="hidden text-gray-400 md:table-cell">mariadocafe@hotmail.com</td>
+            <td className="text-gray-400">Membro</td>
+            <td>
+              <a href="http://">Editar</a>
+            </td>
+          </tr>
+          <tr className="border-b border-gray-300 text-left text-sm">
+            <td className="py-2">
+              <p className="font-bold text-black">Maria da Silva</p>
+              <p className="block md:hidden">Cafezeira</p>
+              <p className="block md:hidden">mariadocafe@hotmail.com</p>
+            </td>
+            <td className="hidden text-gray-400 md:table-cell">Cafezeira</td>
+            <td className="hidden text-gray-400 md:table-cell">mariadocafe@hotmail.com</td>
+            <td className="text-gray-400">Membro</td>
+            <td>
+              <a href="http://">Editar</a>
+            </td>
+          </tr>
+          <tr className="border-b border-gray-300 text-left text-sm">
+            <td className="py-2">
+              <p className="font-bold text-black">Maria da Silva</p>
+              <p className="block md:hidden">Cafezeira</p>
+              <p className="block md:hidden">mariadocafe@hotmail.com</p>
+            </td>
+            <td className="hidden text-gray-400 md:table-cell">Cafezeira</td>
+            <td className="hidden text-gray-400 md:table-cell">mariadocafe@hotmail.com</td>
+            <td className="text-gray-400">Membro</td>
+            <td>
+              <a href="http://">Editar</a>
+            </td>
+          </tr>
+          <tr className="border-b border-gray-300 text-left text-sm">
+            <td className="py-2">
+              <p className="font-bold text-black">Maria da Silva</p>
+              <p className="block md:hidden">Cafezeira</p>
+              <p className="block md:hidden">mariadocafe@hotmail.com</p>
+            </td>
+            <td className="hidden text-gray-400 md:table-cell">Cafezeira</td>
+            <td className="hidden text-gray-400 md:table-cell">mariadocafe@hotmail.com</td>
+            <td className="text-gray-400">Membro</td>
+            <td>
+              <a href="http://">Editar</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
