@@ -18,19 +18,17 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Getting started
 
-To learn more about Next.js, take a look at the following resources:
+The best way to start with this template is using <code>create-next-app</code>.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npx create-next-app project-name -e https://github.com/Marcus-Boni/React-Next-Template
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you prefer you can clone this repository and run the following commands inside the project folder:
 
-## Deploy on Vercel
+<code>npm install</code> or <code>yarn</code>;
+<code>yarn dev</code>;
+To view the project open <code>http://localhost:3000</code>.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 <hr/>
 <p>Made with ❤ by Marcus-Boni</p>
